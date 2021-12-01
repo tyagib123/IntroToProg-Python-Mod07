@@ -7,9 +7,11 @@ This assignment is about understanding and experimenting on how to handle errors
 
 ## What is an exception and exception handling in python?
 An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program’s instructions. In general, when a python script encounters a situation that it cannot cope with, it raises an exception. An exception is a python object that represents an error. If you have some suspicious code that may raise an exception, you can defend your program by placing suspicious code in a try block. After the try block, you must include an except statement followed by a block of code which handles the exception.
+(External resources - https://www.tutorialspoint.com/python/python_exceptions.htm)
 
 ## What is pickling and unpickling in python?
 In python, pickle module is used to serialize or deserialize python object structures. The process of converting any python objects (i.e., list, dictionary) into byte streams is called pickling. We can also convert the byte streams back into python objects. This process is known as unpickling.
+(External resources - https://www.tutorialspoint.com/python-pickling)
 
 ## Breakdown of python script:
 
@@ -196,3 +198,7 @@ Scenario 6
 
 ## Summary:
 In this assignment, I learned about how to handle exceptions and convert python collections into binary format using pickle module. Also, I have learned about how to deserializing the byte streams back to the python objects such as list, dictionary etc.
+
+## External resources:
+- https://www.tutorialspoint.com/python/python_exceptions.htm
+- https://www.tutorialspoint.com/python-pickling
