@@ -79,3 +79,16 @@ Figure 5. Unpickling data logic
 
 - Input_new_name_and_course (): The purpose of this method is to take new student name and course from user as input and return both parameters as a result. The complete logic is shown in Figure 6.
 
+![image](https://user-images.githubusercontent.com/94503382/144197069-06c230e6-f747-43ee-ac2e-1f1cefcca63c.png)
+
+Figure 6. IOStudentProcessor class methods
+
+3.ExceptionStudentCls class methods:
+
+ValueException (): The purpose of this method is to raise an exception when the provided student name and course is not of type string. The complete logic is shown in Figure 7.
+
+CustomException (): The purpose of this method is to raise custom exception when the provided file name to save the student data is not similar to the one mentioned in the python script. The complete logic is shown in Figure 7.
+
+![image](https://user-images.githubusercontent.com/94503382/144197168-a9a6e24b-daf1-44b2-ab1c-6aecd53eaff0.png)
+
+Figure 7. ExceptionStudentCls class methods
