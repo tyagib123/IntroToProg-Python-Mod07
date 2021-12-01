@@ -92,3 +92,17 @@ CustomException (): The purpose of this method is to raise custom exception when
 ![image](https://user-images.githubusercontent.com/94503382/144197168-a9a6e24b-daf1-44b2-ab1c-6aecd53eaff0.png)
 
 Figure 7. ExceptionStudentCls class methods
+
+### Main body of the script:
+Step 1: The program starts with calling the read_data_from_student_file () in order to load the data from the file as shown in Figure 8.
+
+![image](https://user-images.githubusercontent.com/94503382/144197309-88e0d220-72a2-49ab-b5fc-f19b3f5b0332.png)
+
+Figure 8. Beginning of the Main script of the body by loading the data from the file
+
+
+Step 2: Next step is to show the menu options to the user along with getting the user choice. This is done by calling the IOStudentProcessor class methods as shown in Figure 9.
+
+![image](https://user-images.githubusercontent.com/94503382/144197342-d87c5ef0-7ace-46de-99e3-3a431bb36f53.png)
+
+ Figure 9. Calling IOStudentProcessor Class methods
