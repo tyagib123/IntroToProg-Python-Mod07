@@ -39,10 +39,10 @@ This class is responsible for handling different exceptions such as TypeError as
 
 - Read_data_from_file (strFileName, list_of_rows): The purpose of this method is to read the file which has student data. Basically, this file contains student names and courses as rows separated by comma and create dictionary object. Finally, create list of student dictionary objects. This method takes file name that contains student data and student list. The function starts with opening the file in the read mode and then split the student row using split (). On splitting the row, we will store student name in name variable and student’s corresponding course in course variable. Using these two variables, we create row and finally add that row in the studentList. This list i.e., (studentList) has been initialized as an empty list to store the dictionary objects. After adding all student names and courses in a list, we close the file and return studentList as result. The complete method logic is shown in Figure 1.
 
-![image](https://user-images.githubusercontent.com/94503382/144195395-0b1a0567-5da4-4611-b849-f8868680d3ac.png)
+(https://user-images.githubusercontent.com/94503382/144195395-0b1a0567-5da4-4611-b849-f8868680d3ac.png)
                                       Figure 1. Reading data from file
 
 - Add_more_data_to_student_file (name, course, studentList): The purpose of this method is to add new student name and course in the studentList after checking whether the provided student name and course are of type string. The code has been wrapped in try block. The method takes in name, course and studentList as input parameters. In the try block, the logic is to check whether the provided student name and course is of type string. If it is of type string then create row and add the row into the existing studentList. If not, the exception will be raised by calling ValueException () method of ExceptionStudentCls. There is another general exception which gets raised on checking whether the name and course is of type. Overall, two exceptions are raised together in block of code. Finally, we return studentList as result. The complete method logic is shown in Figure 2.
 
-![image](https://user-images.githubusercontent.com/94503382/144195452-750bbced-e2b8-448d-83b0-3f3c8ecdae86.png)
+(https://user-images.githubusercontent.com/94503382/144195452-750bbced-e2b8-448d-83b0-3f3c8ecdae86.png)
                                   Figure 2. Adding new student data in studentList
