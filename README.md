@@ -239,6 +239,3 @@ Scenario 4
 BinaryStuDir.dat file content:
 
 
-
-
-Scenario 1
