@@ -96,13 +96,19 @@ Figure 7. ExceptionStudentCls class methods
 ### Main body of the script:
 Step 1: The program starts with calling the read_data_from_student_file () in order to load the data from the file as shown in Figure 8.
 
-![image](https://user-images.githubusercontent.com/94503382/144197309-88e0d220-72a2-49ab-b5fc-f19b3f5b0332.png)
+![image](https://user-images.githubusercontent.com/94503382/144197496-403950ff-4aef-4e25-b85f-c66e88980938.png)
 
 Figure 8. Beginning of the Main script of the body by loading the data from the file
 
-
 Step 2: Next step is to show the menu options to the user along with getting the user choice. This is done by calling the IOStudentProcessor class methods as shown in Figure 9.
 
-![image](https://user-images.githubusercontent.com/94503382/144197342-d87c5ef0-7ace-46de-99e3-3a431bb36f53.png)
+![image](https://user-images.githubusercontent.com/94503382/144197626-d32dd425-ff13-4377-b4c1-be7b5f361f1b.png)
 
- Figure 9. Calling IOStudentProcessor Class methods
+Figure 9. Calling IOStudentProcessor Class methods
+
+Step 3: If the user chooses option 1, this means that user wants to add new student names and enrolled courses in the existing student list. In order to achieve this, first we ask user to provide the student ‘s name and course that needs to be added to the list and finally we call the methods that would do this processing on behalf of the user. Finally, we ask user whether they want to continue with the next action or not. The complete logic is shown in Figure 10.
+
+![image](https://user-images.githubusercontent.com/94503382/144197686-22ccbabc-8212-4eb1-98c7-02782634f4a4.png)
+
+Figure 10. Logic for student menu option 1
+
