@@ -130,7 +130,7 @@ Step 6: If user chooses option 4, this means that user wants to convert the data
 
 Figure 13. Logic for student menu option 4
 
-Step 7: If the user chooses option 7, this means that user wants to exit from the program. The complete logic is shown in Figure 14.
+Step 7: If the user chooses option 5, this means that user wants to exit from the program. The complete logic is shown in Figure 14.
 
 ![image](https://user-images.githubusercontent.com/94503382/144198180-22790e36-5c88-4ac3-b9a6-5272dae78c6f.png)
 
