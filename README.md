@@ -55,8 +55,15 @@ Figure 2. Adding new student data in studentList
 
 Figure 3. Saving data in new file
 
-Pickle_student_data (binaryStuFileName, studentList): The purpose of this method is to convert the list object into byte streams. This method takes file name where we want to store the data in binary format along with studentList. The logic starts with opening the file in wb mode (i.e., write + binary) mode. Finally, we use dump () method which takes two parameters i.e., studentList and binaryFile which is a file object. After writing all rows of the studentList, we close the file using close (). The complete method logic is shown in Figure 4.
+- Pickle_student_data (binaryStuFileName, studentList): The purpose of this method is to convert the list object into byte streams. This method takes file name where we want to store the data in binary format along with studentList. The logic starts with opening the file in wb mode (i.e., write + binary) mode. Finally, we use dump () method which takes two parameters i.e., studentList and binaryFile which is a file object. After writing all rows of the studentList, we close the file using close (). The complete method logic is shown in Figure 4.
 
 ![image](https://user-images.githubusercontent.com/94503382/144196679-12b1f3aa-0f81-42a1-ba7c-c2aa313506a8.png)
 
 Figure 4. Pickling data logic
+
+- Unpickle_student_data (binaryStuFileName): The purpose of this method is to convert the byte streams back to list object. This method takes binary file name as an input parameter. We again open the file in read + binary mode and finally use load () to read the binary file in text format. The complete method logic is shown in Figure 5.
+
+![image](https://user-images.githubusercontent.com/94503382/144196806-fd5a038c-7680-4656-929c-eebad9754dc1.png)
+
+Figure 5. Unpickling data logic
+
