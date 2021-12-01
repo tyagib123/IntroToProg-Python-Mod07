@@ -236,6 +236,13 @@ Scenario 4. Pickling of the data:
 
 Scenario 4
 
-BinaryStuDir.dat file content:
+BinaryStuDir.dat file content: 
+
+![image](https://user-images.githubusercontent.com/94503382/144198984-a8d409d0-1b81-4c47-9509-6706477a40d7.png)
+
+Scenario 5. Unpickling of the data:
+
+
+
 
 
