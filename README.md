@@ -38,3 +38,5 @@ This class is responsible for handling different exceptions such as TypeError as
 1.	StudentProcessor class methods:
 
 Read_data_from_file (strFileName, list_of_rows): The purpose of this method is to read the file which has student data. Basically, this file contains student names and courses as rows separated by comma and create dictionary object. Finally, create list of student dictionary objects. This method takes file name that contains student data and student list. The function starts with opening the file in the read mode and then split the student row using split (). On splitting the row, we will store student name in name variable and student’s corresponding course in course variable. Using these two variables, we create row and finally add that row in the studentList. This list i.e., (studentList) has been initialized as an empty list to store the dictionary objects. After adding all student names and courses in a list, we close the file and return studentList as result. The complete method logic is shown in Figure 1.
+
+![image](https://user-images.githubusercontent.com/94503382/144195395-0b1a0567-5da4-4611-b849-f8868680d3ac.png)
