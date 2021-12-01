@@ -39,8 +39,7 @@ This class is responsible for handling different exceptions such as TypeError as
 
 - Read_data_from_file (strFileName, list_of_rows): The purpose of this method is to read the file which has student data. Basically, this file contains student names and courses as rows separated by comma and create dictionary object. Finally, create list of student dictionary objects. This method takes file name that contains student data and student list. The function starts with opening the file in the read mode and then split the student row using split (). On splitting the row, we will store student name in name variable and student’s corresponding course in course variable. Using these two variables, we create row and finally add that row in the studentList. This list i.e., (studentList) has been initialized as an empty list to store the dictionary objects. After adding all student names and courses in a list, we close the file and return studentList as result. The complete method logic is shown in Figure 1.
 
-
-![image](https://user-images.githubusercontent.com/94503382/144195805-c5802ec5-4690-4235-bcdc-13408d930227.png)
+![image](https://user-images.githubusercontent.com/94503382/144196642-af26d152-c438-4c6d-9902-95e3d23f7fe5.png)
 
 Figure 1. Reading data from the file
 
@@ -56,3 +55,8 @@ Figure 2. Adding new student data in studentList
 
 Figure 3. Saving data in new file
 
+Pickle_student_data (binaryStuFileName, studentList): The purpose of this method is to convert the list object into byte streams. This method takes file name where we want to store the data in binary format along with studentList. The logic starts with opening the file in wb mode (i.e., write + binary) mode. Finally, we use dump () method which takes two parameters i.e., studentList and binaryFile which is a file object. After writing all rows of the studentList, we close the file using close (). The complete method logic is shown in Figure 4.
+
+![image](https://user-images.githubusercontent.com/94503382/144196679-12b1f3aa-0f81-42a1-ba7c-c2aa313506a8.png)
+
+Figure 4. Pickling data logic
