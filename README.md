@@ -194,4 +194,51 @@ Scenario 6. Exiting from the program:
 
 Scenario 6
 
+### Execution result in MacOS:
 
+Scenario 1: Load data while reading the file:
+
+![image](https://user-images.githubusercontent.com/94503382/144199281-8d93451b-4b6e-4929-9e10-609f64965be6.png)
+
+Scenario 1
+
+Scenario 2a: Successful addition of new student and course in the student list:
+
+![image](https://user-images.githubusercontent.com/94503382/144199343-b87893e1-beab-4265-81a2-b0b382d4af68.png)
+
+Scenario 2a
+
+Scenario 2b. Exception messages when user wants to add student name or course other than string type:
+
+![image](https://user-images.githubusercontent.com/94503382/144199399-332332fe-39a0-4f2c-a8b1-21634892bdbe.png)
+
+Scenario 2b
+
+Scenario 3a. Successful saving data in a file:
+
+![image](https://user-images.githubusercontent.com/94503382/144199485-0305450e-8664-4bf8-95ba-52e93903bb22.png)
+
+Scenario 3a
+
+RawStudentDirectory.txt content:
+
+![image](https://user-images.githubusercontent.com/94503382/144199556-1a3c0869-0d26-49a9-8223-91961211ca1b.png)
+
+Scenario 3b. Exception messages when user provided file name is not similar to initialized in the script with name ‘RawStudentDirectory.txt’.
+
+![image](https://user-images.githubusercontent.com/94503382/144199595-102d4022-20b0-4249-a134-5345c78a5f64.png)
+
+Scenario 3b
+
+Scenario 4. Pickling of the data:
+
+![image](https://user-images.githubusercontent.com/94503382/144199668-9507629b-031d-4552-9b0a-a24d43c5cd56.png)
+
+Scenario 4
+
+BinaryStuDir.dat file content:
+
+
+
+
+Scenario 1
