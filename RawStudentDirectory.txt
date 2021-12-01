@@ -1,3 +1,0 @@
-Kelly,Chemistry
-Robin,Maths
-Jason,Biology
