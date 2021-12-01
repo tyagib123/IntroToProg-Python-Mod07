@@ -136,3 +136,27 @@ Step 7: If the user chooses option 5, this means that user wants to exit from th
 
 Figure 14. Logic for student menu option 5
 
+### Execution result in PyCharm:
+
+Scenario 1: Load data while reading the file:
+
+![image](https://user-images.githubusercontent.com/94503382/144198425-b6a907cd-d723-4b3c-9770-3a5667618541.png)
+
+Scenario 1
+
+Scenario 2a: Successful addition of new student and course in the student list:
+
+![image](https://user-images.githubusercontent.com/94503382/144198534-0636180e-8805-473b-91d4-d32a67fac87d.png)
+
+Scenario 2a
+
+Scenario 2b. Exception messages when user wants to add student name or course other than string type:
+
+![image](https://user-images.githubusercontent.com/94503382/144198630-9bc49fbb-7154-42d1-974a-4ec2ae1e5d5d.png)
+
+Scenario 2b
+
+Scenario 3a. Successful saving data in a file:
+
+![image](https://user-images.githubusercontent.com/94503382/144198683-e9237365-4bf7-4fd3-a9ed-c7e1f4923ade.png)
+
