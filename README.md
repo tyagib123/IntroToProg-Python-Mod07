@@ -14,4 +14,22 @@ In python, pickle module is used to serialize or deserialize python object struc
 ## Breakdown of python script:
 
 ### Different classes to handle Processing/IO tasks and Exception handling:
+Below are the three classes that I have created in my python script:
 
+1.	StudentProcessor:
+This class is responsible for processing of the below tasks:
+a.	Reading student data from the text file
+b.	Adding more student dictionary objects in the student list.
+c.	Saving the student data to the new file.
+d.	Pickling of the student data.
+e.	Unpickling of the student data.
+
+2.	IOStudentProcessor: 
+This class is responsible for printing out the student menu options as well as getting user input to perform certain tasks using student menu. Following are the tasks:
+a.	Gets the user choice from the student menu options.
+b.	Show the current student menu options to the user.
+c.	Get the user input to add new student name and course.
+d.	Asking user to choose from y/n to continue the process or not.
+
+3.	ExceptionStudentCls: 
+This class is responsible for handling different exceptions such as TypeError as well as CustomError.
