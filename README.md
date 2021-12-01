@@ -11,4 +11,7 @@ An exception is an event, which occurs during the execution of a program that di
 ## What is pickling and unpickling in python?
 In python, pickle module is used to serialize or deserialize python object structures. The process of converting any python objects (i.e., list, dictionary) into byte streams is called pickling. We can also convert the byte streams back into python objects. This process is known as unpickling.
 
+## Breakdown of python script:
+
+### Different classes to handle Processing/IO tasks and Exception handling:
 
