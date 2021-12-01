@@ -67,3 +67,15 @@ Figure 4. Pickling data logic
 
 Figure 5. Unpickling data logic
 
+2. IOStudentProcessor class methods:
+
+- Print_menu_student_tasks (): The purpose of this method is to print the menu options. The complete logic is shown in Figure 6.
+
+- Input_menu_choice (): The purpose of this method is to get the user choice among the provided student menu options. As a result, we return choice of the user. The complete logic is shown in Figure 6.
+
+- Print_current_student_tasks (): The purpose of this method is to print the current student objects in the studentList.  The complete logic is shown in Figure 6.
+
+- Input_yes_or_no_choice (): The purpose of this method is to return the message in terms of y/n when the logic asks user whether they want to continue with the instructions to finish the tasks. The complete logic is shown in Figure 6.
+
+- Input_new_name_and_course (): The purpose of this method is to take new student name and course from user as input and return both parameters as a result. The complete logic is shown in Figure 6.
+
