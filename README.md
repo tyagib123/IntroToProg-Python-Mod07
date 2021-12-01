@@ -158,5 +158,40 @@ Scenario 2b
 
 Scenario 3a. Successful saving data in a file:
 
-![image](https://user-images.githubusercontent.com/94503382/144198683-e9237365-4bf7-4fd3-a9ed-c7e1f4923ade.png)
+![image](https://user-images.githubusercontent.com/94503382/144198754-9d03c145-be2a-458a-9014-ff8fd57a1c60.png)
+
+Scenario 3a
+
+RawStudentDirectory.txt content:
+
+![image](https://user-images.githubusercontent.com/94503382/144198811-ecb8be76-e125-4aba-af52-685e7ef5ea8d.png)
+
+Scenario 3b. Exception messages when user provided file name is not similar to initialized in the script with name ‘RawStudentDirectory.txt’.
+
+![image](https://user-images.githubusercontent.com/94503382/144198864-4e5f7312-056f-4ef9-96d1-50d81f28e96b.png)
+
+Scenario 3b
+
+Scenario 4. Pickling of the data:
+
+![image](https://user-images.githubusercontent.com/94503382/144198925-60e48c39-485f-4f9b-af5c-62d9ebec97fc.png)
+
+Scenario 4
+
+BinaryStuDir.dat file content:
+
+![image](https://user-images.githubusercontent.com/94503382/144198984-a8d409d0-1b81-4c47-9509-6706477a40d7.png)
+
+Scenario 5. Unpickling of the data:
+
+![image](https://user-images.githubusercontent.com/94503382/144199022-1b938319-d178-49ad-ac7f-00d2d7748d39.png)
+
+Scenario 5
+
+Scenario 6. Exiting from the program:
+
+![image](https://user-images.githubusercontent.com/94503382/144199158-93c8590b-1497-49da-8b2d-a94cdab70d72.png)
+
+Scenario 6
+
 
