@@ -52,19 +52,7 @@ Figure 2. Adding new student data in studentList
 
 - Write_and_save_data_to_new_file (newStuFileName, studentList): The purpose of this method is to save the student data to a new file named as RawStudentDirectory.txt. The method starts with try block that contains logic where we first take the file name where user wants to write the data. Then, we check whether the user provided file name is similar to what has been mentioned in the code initially i.e., RawStudentDirectory.txt. If the file names are same then we open the new file in write mode and iterate through each row in the studentList and write it to the new file. In case if the file names are different, then we raise general exception with message “The file is not same”. Another exception is raised in except block which calls CustomException () of ExceptionStudentCls with message “CustomError: Please use the correct file name!”. Finally, we return studentList as a result. The complete method logic is shown in Figure 3.
 
-![image](https://user-images.githubusercontent.com/94503382/144196175-b835748a-b468-4e78-acab-45139cea59d7.png)
+![image](https://user-images.githubusercontent.com/94503382/144196517-6aeff7f9-b471-45a3-9013-cf348613f4a0.png)
 
 Figure 3. Saving data in new file
 
-Pickle_student_data (binaryStuFileName, studentList): The purpose of this method is to convert the list object into byte streams. This method takes file name where we want to store the data in binary format along with studentList. The logic starts with opening the file in wb mode (i.e., write + binary) mode. Finally, we use dump () method which takes two parameters i.e., studentList and binaryFile which is a file object. After writing all rows of the studentList, we close the file using close (). The complete method logic is shown in Figure 4.
-
- 
-![image](https://user-images.githubusercontent.com/94503382/144196250-3fd4051c-3147-442c-aa57-cfefb06f6181.png)
- 
-Figure 4. Pickling data logic
-
-Unpickle_student_data (binaryStuFileName): The purpose of this method is to convert the byte streams back to list object. This method takes binary file name as an input parameter. We again open the file in read + binary mode and finally use load () to read the binary file in text format. The complete method logic is shown in Figure 5.
-
-![image](https://user-images.githubusercontent.com/94503382/144196331-3c179208-50e6-4d77-a643-9f5a53a05bd2.png)
-
-Figure 5. Unpickling data logic
