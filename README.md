@@ -46,8 +46,4 @@ Figure 1. Reading data from the file
 
 - Add_more_data_to_student_file (name, course, studentList): The purpose of this method is to add new student name and course in the studentList after checking whether the provided student name and course are of type string. The code has been wrapped in try block. The method takes in name, course and studentList as input parameters. In the try block, the logic is to check whether the provided student name and course is of type string. If it is of type string then create row and add the row into the existing studentList. If not, the exception will be raised by calling ValueException () method of ExceptionStudentCls. There is another general exception which gets raised on checking whether the name and course is of type. Overall, two exceptions are raised together in block of code. Finally, we return studentList as result. The complete method logic is shown in Figure 2.
 
-![image](https://user-images.githubusercontent.com/94503382/144195926-d76b656e-9a4d-4fa2-bc3e-09899e20b610.png)
-
-Figure 2. Adding new student data in studentList
-
-
+![image](https://user-images.githubusercontent.com/94503382/144196090-1c56fb8e-6ec5-4fbd-8af5-1fc0fe0617dd.png)
