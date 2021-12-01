@@ -112,3 +112,27 @@ Step 3: If the user chooses option 1, this means that user wants to add new stud
 
 Figure 10. Logic for student menu option 1
 
+Step 4: If user chooses option 2, this means that user wants to save the data to the new file. In order to achieve this, first we ask user whether they want to save the data to the file or not. If the input is ‘y’ then the method would be called which will be responsible for saving the data to the file. Finally, we ask user whether they want to continue with the next action or not. In case, if they don’t want to proceed with saving data to a file, then print the message to the user “Save canceled”. This means that data will not be saved to the file. The complete logic is shown in Figure 11.
+
+![image](https://user-images.githubusercontent.com/94503382/144197828-21fb5971-143c-4008-b386-f0a2e24ac57b.png)
+
+Figure 11. Logic for student menu option 2
+
+Step 5: If user chooses option 3, this means that user wants to convert the data into binary format. If this is the case then we would call pickle’s dump method to achieve this task.  The complete logic is shown in Figure 12.
+
+![image](https://user-images.githubusercontent.com/94503382/144197900-a6ebcddd-6b9b-4222-aa0d-ba45b001d37c.png)
+
+Figure 12. Logic for student menu option 3
+
+Step 6: If user chooses option 4, this means that user wants to convert the data back into list object from binary format. If this is the case then we would call pickle’s load method to achieve this task.  The complete logic is shown in Figure 13.
+
+![image](https://user-images.githubusercontent.com/94503382/144198081-912e6481-da1c-474b-b8cb-6c9b9123dd21.png)
+
+Figure 13. Logic for student menu option 4
+
+Step 7: If the user chooses option 7, this means that user wants to exit from the program. The complete logic is shown in Figure 14.
+
+![image](https://user-images.githubusercontent.com/94503382/144198180-22790e36-5c88-4ac3-b9a6-5272dae78c6f.png)
+
+Figure 14. Logic for student menu option 5
+
